@@ -2,6 +2,7 @@ const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
 const rs = require('readline-sync');
+const chalkRed = require('chalk-red')
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
