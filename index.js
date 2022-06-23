@@ -58,9 +58,18 @@ await sleep (2000);
       const country = data.User.Country;
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.yellow(`Nama Pengguna : ${username}`)} | ${chalk.blue(`Negara : ${country}`)} | ${chalk.red(`Data Send : Berhasil`)} | ${chalk.green(`Trophy : ${trophy}`)} | ${chalk.white(`Mahkota : ${crown}`)}`));
+
+      console.log(chalkRed(`\r
+  -  [${moment().format('HH:mm:ss')}]
+  ≥  ${(`ID By Zexxy : ${country}`)}
+  ≥  ${(`USER By Zexxy : ${username}`)}
+  >  ${(`TROPHY By Zexxy : ${trophy}`)}
+  >  ${(CROWN By Zexxy : ${crown}`)}
+  >   ${(`STATUS : Success !!`)}`));
+          await sleep(5000);
+
 console.log(chalk.bgBlue(`Sabar lagi delay Njing🥶🥶!`));
-      await sleep(5000);
+      
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`BANNED`));
