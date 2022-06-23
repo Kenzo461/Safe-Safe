@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
 const rs = require('readline-sync');
-const chalkRed = require('chalk-red')
+const chalkRainbow = require('chalk-rainbow')
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -60,7 +60,7 @@ await sleep (2000);
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-      console.log(chalkRed(`\r
+      console.log(chalkRainbow(`\r
   -  [${moment().format('HH:mm:ss')}]
   ≥  ${(`ID By Zexxy : ${country}`)}
   ≥  ${(`USER By Zexxy : ${username}`)}
