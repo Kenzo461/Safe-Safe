@@ -69,7 +69,7 @@ await sleep (2000);
   >   ${(`STATUS : Success !!`)}`));
           await sleep(5000);
 
-console.log(chalk.bgBlue(`Sabar lagi delay Njing🥶🥶!`));
+
       
 
     } else if (result == 'BANNED') {
