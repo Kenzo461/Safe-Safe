@@ -59,7 +59,7 @@ await sleep (2000);
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.yellow(`Nama Pengguna : ${username}`)} | ${chalk.blue(`Negara : ${country}`)} | ${chalk.red(`Data Send : Berhasil`)} | ${chalk.green(`Trophy : ${trophy}`)} | ${chalk.white(`Mahkota : ${crown}`)}`));
-console.log(chalk.bgRed(`Mohon Tunggu Delay 5 Detik Agar Tidak Terban !`));
+console.log(chalk.bgblue(`Sabar lagi delay Njing🥶🥶!`));
       await sleep(5000);
 
     } else if (result == 'BANNED') {
